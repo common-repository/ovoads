@@ -1,0 +1,198 @@
+.ovoads-admin .plans .plan input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.ovoads-admin .plans .plan {
+  cursor: pointer;
+  width: 100%;
+  margin: 5px 0px;
+  background-color: #fff;
+}
+
+.ovoads-admin .plans .plan .plan-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #e1e2e7;
+  border-radius: 10px;
+  -webkit-transition: -webkit-box-shadow 0.4s;
+  transition: -webkit-box-shadow 0.4s;
+  -o-transition: box-shadow 0.4s;
+  transition: box-shadow 0.4s;
+  transition: box-shadow 0.4s, -webkit-box-shadow 0.4s;
+  position: relative;
+}
+
+.ovoads-admin .plans .plan .plan-details span {
+  display: block;
+  line-height: 24px;
+  color: #252f42;
+  font-weight: 600;
+}
+
+.ovoads-admin .container .title {
+  font-size: 20px;
+  font-weight: 500;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  color: #252f42;
+  margin-bottom: 20px;
+}
+
+.ovoads-admin .plans .plan .plan-details p {
+  color: #646a79;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.ovoads-admin .plans .plan .plan-content:hover {
+  -webkit-box-shadow: 0px 3px 5px 0px #e8e8e8;
+  box-shadow: 0px 3px 5px 0px #e8e8e8;
+}
+
+.ovoads-admin .plans .plan input[type="radio"]:checked+.plan-content:after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  background: #216fe0;
+  right: 20px;
+  top: 20px;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0px 0px 0px 2px #0066ff;
+  box-shadow: 0px 0px 0px 2px #0066ff;
+}
+
+.ovoads-admin .plans .plan input[type="radio"]:checked+.plan-content {
+  border: 2px solid #216ee0;
+  background: #eaf1fe;
+  -webkit-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+@media screen and (max-width: 575px) {
+  .ovoads-admin .cl {
+    width: 50%;
+  }
+}
+
+.ovoads-admin .custom_wp_media_btn {
+  border: 1px solid #2271B1;
+  background: transparent;
+  border-radius: 5px;
+  padding: 5px 24px;
+}
+
+.ovoads-admin .custom_wp_media_btn:hover {
+  background-color: #2271B1;
+  color: #fff;
+}
+
+.ovoads-admin .adDetailSiteTable {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.ovoads-admin .adDetailSiteTable::-webkit-scrollbar {
+  display: none;
+}
+
+.ovoads-admin .badge-hover:hover {
+  color: #ddd;
+}
+
+.ovoads-admin .ovoads-textarea-content {
+  overflow: hidden;
+  position: relative;
+}
+
+.ovoads-admin .ad-script-textarea {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.ovoads-textarea-content:hover .ad-script-textarea {
+  opacity: 1;
+
+}
+
+.ovoads-admin .textarea-detail {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.ovoads-admin .ovoads-textarea-content:hover .textarea-detail {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.ovoads-admin .textarea-detail p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ovoads-admin .selection {
+  width: 100% !important;
+}
+
+.ovoads-admin .select2-container--bootstrap-5 {
+  width: 100% !important;
+}
+
+.ovoads-admin .select2-search__field {
+  width: 100% !important;
+}
+
+.ovoads-admin .select2-selection__rendered li {
+  margin-top: 6px !important;
+}
+
+.ovoads-admin .select2-results {
+  width: 100% !important;
+}
+
+#toplevel_page_ovoads .wp-menu-image img {
+  width: 18px;
+}
+
+.ovoads-admin .select2-container .select2-selection--multiple {
+  min-height: 38px;
+}
+
+.ovoads-admin .select2-container--default.select2-container--focus .select2-selection--multiple{
+  border: 1px solid #a9a9ad;
+}
+
+.ovoads-admin .select2-container {
+  width: 100% !important;
+  z-index: 99999;
+}

@@ -1,0 +1,11 @@
+{
+    "name": "vendor/ovoads",
+    "autoload": {
+        "psr-4": {
+            "Ovoads\\": "app/"
+        },
+        "files": [
+            "app/Helpers/helpers.php"
+        ]
+    }
+}

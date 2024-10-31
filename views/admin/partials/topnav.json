@@ -1,0 +1,9 @@
+{
+	"ovoads_settings": [
+		{
+			"name": "General Settings",
+			"route": "admin.setting.index",
+			"icon": "las la-clipboard-list"
+		}
+	]
+}

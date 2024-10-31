@@ -1,0 +1,1211 @@
+/* ================================= Common Typography Css Start =========================== */
+.ovoads-admin .card {
+    max-width: initial;
+}
+
+
+body.ovoads-admin {
+    color: #555;
+    word-break: break-word;
+}
+
+.ovoads-admin p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    word-break: break-word;
+}
+
+.ovoads-admin span {
+    display: inline-block;
+}
+
+.ovoads-admin h1,
+.ovoads-admin h2,
+.ovoads-admin h3,
+.ovoads-admin h4,
+.ovoads-admin h5,
+.ovoads-admin h6 {
+    color: #000;
+    line-height: 1.3;
+    word-break: break-word;
+}
+
+.ovoads-admin h1>a,
+.ovoads-admin h2>a,
+.ovoads-admin h3>a,
+.ovoads-admin h4>a,
+.ovoads-admin h5>a,
+.ovoads-admin h6>a {
+    font-weight: 600;
+    line-height: 1.3;
+    word-break: break-word;
+}
+
+.ovoads-admin a {
+    display: inline-block;
+    transition: 0.2s linear;
+    text-decoration: none;
+}
+
+.ovoads-admin ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ovoads-admin img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.ovoads-admin select {
+    cursor: pointer;
+}
+
+.ovoads-admin ul,
+.ovoads-admin ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.ovoads-admin li {
+    margin: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+.ovoads-admin button {
+    cursor: pointer;
+    border: none;
+}
+
+.ovoads-admin .form-select:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.ovoads-admin a:focus {
+    box-shadow: none;
+    border: 0;
+}
+
+/* ================================= Common Typography Css End =========================== */
+
+/* ================================= Button Css Start =========================== */
+
+
+.ovoads-admin .btn-check:checked+.ovoads-admin .btn,
+.ovoads-admin .btn.active,
+.ovoads-admin .btn.show,
+.ovoads-admin .btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    color: none;
+    background-color: none;
+    border-color: none;
+}
+
+.ovoads-admin .btn {
+    font-size: 18px;
+    padding-block: 5px;
+    padding-inline: 16px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: #7672724a 0px 0px 15px;
+    position: relative;
+    z-index: 1;
+    transition: all .3s;
+    min-width: 118px;
+}
+
+@media (max-width:574px) {
+    .ovoads-admin .btn {
+        padding: 7px 18px;
+        font-size: 15px;
+    }
+}
+
+.ovoads-admin .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.ovoads-admin .btn:hover,
+.ovoads-admin .btn:focus,
+.ovoads-admin .btn:focus-visible {
+    color: #fff;
+    box-shadow: none !important;
+}
+
+.ovoads-admin .btn:active {
+    top: 2px;
+}
+
+.ovoads-admin .btn--lg {
+    padding: 16px 48px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 991px) {
+    .ovoads-admin .btn--lg {
+        padding: 18px 30px;
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ovoads-admin .btn--lg {
+        padding: 16px 25px;
+        font-size: 18px;
+    }
+}
+
+.ovoads-admin .btn--sm {
+    padding: 4px 10px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .ovoads-admin .btn--sm {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+.ovoads-admin .btn:active {
+    top: 2px;
+}
+
+.ovoads-admin .btn:focus {
+    box-shadow: #7672724a 0px 0px 15px !important;
+}
+
+.ovoads-admin .btn--primary {
+    background-color: #525eeb;
+    border-color: #525eeb;
+}
+
+.ovoads-admin .btn--primary:focus {
+    border: 1px solid #525eeb;
+}
+
+.ovoads-admin .btn--primary:hover {
+    background-color: #444fcd;
+    border-color: #444fcd;
+}
+
+.ovoads-admin .btn--secondary {
+    background-color: #394867 !important;
+    border-color: #394867 !important;
+}
+
+.ovoads-admin .btn--secondary:hover {
+    background-color: #212A3E !important;
+    border-color: #212A3E !important;
+}
+
+.ovoads-admin .btn--secondary:focus {
+    border: 1px solid #212A3E;
+}
+
+.ovoads-admin .btn--success {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.ovoads-admin .btn--success:focus {
+    border: 1px solid #28a745;
+}
+
+.ovoads-admin .btn--success:hover {
+    background-color: #379237 !important;
+    border-color: #379237 !important;
+}
+
+.ovoads-admin .btn--danger {
+    background-color: #F45050 !important;
+    border-color: #F45050 !important;
+}
+
+.ovoads-admin .btn--danger:focus {
+    border: 1px solid #F45050;
+}
+
+.ovoads-admin .btn--danger:hover {
+    background-color: #DF2E38 !important;
+    border-color: #DF2E38 !important;
+}
+
+.ovoads-admin .btn-warning {
+    background-color: #F79F1F !important;
+    border-color: #F79F1F !important;
+    color: #fff !important;
+}
+
+.ovoads-admin .btn--warning:focus {
+    border: 1px solid #F79F1F;
+}
+
+.ovoads-admin .btn-warning:hover {
+    background-color: #f0932b !important;
+    border-color: #f0932b !important;
+}
+
+.ovoads-admin .btn-info {
+    background-color: #487eb0 !important;
+    border-color: #487eb0 !important;
+    color: #fff !important;
+}
+
+.ovoads-admin .btn--info:focus {
+    border: 1px solid #487eb0;
+}
+
+.ovoads-admin .btn-info:hover {
+    background-color: #40739e !important;
+    border-color: #40739e !important;
+}
+
+.ovoads-admin .btn-dark {
+    background-color: #1e272e !important;
+    border-color: #1e272e !important;
+}
+
+.ovoads-admin .btn--dark:focus {
+    border: 1px solid #1e272e;
+}
+
+.ovoads-admin .btn-dark:hover {
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+
+
+/*===================== button css end here ===================== */
+
+/* bg colors */
+.ovoads-admin .bg--primary {
+    background-color: #525eeb;
+    color: #fff;
+}
+
+.ovoads-admin .bg--secondary {
+    background-color: #394867;
+    color: #fff;
+}
+
+.ovoads-admin .bg--success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.ovoads-admin .bg--danger {
+    background-color: #F45050;
+    color: #fff;
+}
+
+.ovoads-admin .bg--warning {
+    background-color: #F79F1F;
+    color: #fff;
+}
+
+.ovoads-admin .bg--info {
+    background-color: #487eb0;
+    color: #fff;
+}
+
+.ovoads-admin .bg--dark {
+    background-color: #1e272e;
+    color: #fff;
+}
+
+/* bg colors */
+
+/* text colors */
+.ovoads-admin .text--primary {
+    color: #525eeb;
+}
+
+.ovoads-admin .text--secondary {
+    color: #394867;
+}
+
+.ovoads-admin .text--success {
+    color: #28a745;
+}
+
+.ovoads-admin .text--danger {
+    color: #F45050;
+}
+
+.ovoads-admin .text--warning {
+    color: #F79F1F;
+}
+
+.ovoads-admin .text--info {
+    color: #487eb0;
+}
+
+.ovoads-admin .text--dark {
+    color: #1e272e;
+}
+
+/* text colors */
+
+
+.ovoads-admin {
+    background-color: #f7f8fa !important;
+}
+
+.ovoads-admin .notice {
+    display: none;
+}
+
+.ovoads-admin #wpcontent {
+    padding-left: 0px;
+}
+
+.ovoads-admin .admin-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.ovoads-admin .breadcrumb-area {
+    padding: 30px;
+}
+
+/* empty data start */
+.ovoads-admin .empty-data {
+    height: calc(100vh - 218px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ovoads-admin .empty-data .empty-icon img {
+    width: 120px;
+}
+
+/* empty data end */
+
+/* card css start */
+.ovoads-admin .card {
+    margin-top: 0px;
+    padding: 0px;
+    border: 0;
+}
+
+.ovoads-admin .card.custom--card .card-footer,
+.ovoads-admin .card.custom--card .card-header {
+    background: #fff;
+}
+
+/* card css end */
+
+/* input css start */
+.ovoads-admin .form-group {
+    margin-bottom: 15px;
+}
+
+.ovoads-admin input.form-control.form--control {
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    padding: 5px 18px;
+}
+
+.ovoads-admin input.form-control.form--control:focus {
+    box-shadow: none;
+    border: 1px solid #b4b3b3;
+}
+
+.ovoads-admin .form-check-input {
+    background-color: #fff !important;
+}
+
+.ovoads-admin .form-check-input::before {
+    content: '';
+}
+
+/* input css end */
+
+
+
+.ovoads-admin .breadcrumb-nav-open {
+    font-size: 24px;
+    line-height: 1;
+    display: none;
+    padding: 0;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.ovoads-admin .breadcrumb-nav {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #5b6e8824;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ovoads-admin .breadcrumb-nav li {
+    margin-top: 3px;
+}
+
+.ovoads-admin .breadcrumb-nav li a {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    position: relative;
+
+}
+
+@media (max-width: 1399px) {
+    .ovoads-admin .breadcrumb-nav li a {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+.ovoads-admin .breadcrumb-nav li a::after {
+    position: absolute;
+    content: '';
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #f7f8fa;
+    opacity: 0;
+    z-index: 1;
+}
+
+.ovoads-admin .breadcrumb-nav li.active a::after {
+    opacity: 1;
+}
+
+.ovoads-admin .breadcrumb-nav li.active a {
+    background-color: #f7f8fa;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-radius: 5px 5px 0 0;
+}
+
+.ovoads-admin .breadcrumb-nav a i {
+    color: #5b6e88;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.ovoads-admin .breadcrumb-nav a .menu-title {
+    color: #5b6e88;
+    line-height: 1;
+}
+
+.ovoads-admin .breadcrumb-nav a .menu-badge {
+    font-size: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.ovoads-admin .breadcrumb-nav li:hover a i,
+.ovoads-admin .breadcrumb-nav li:hover a .menu-title,
+.ovoads-admin .breadcrumb-nav li.active a i,
+.ovoads-admin .breadcrumb-nav li.active a .menu-title {
+    color: #5352ed;
+}
+
+@media (max-width: 1199px) {
+    .ovoads-admin .breadcrumb-nav-open {
+        display: inline-block;
+    }
+
+    .ovoads-admin .breadcrumb-nav {
+        margin: 0;
+        position: fixed;
+        top: 0;
+        right: -390px;
+        width: 300px;
+        background-color: #fff;
+        display: block;
+        min-height: 100vh;
+        z-index: 99;
+        border: none;
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s;
+    }
+
+    .ovoads-admin .breadcrumb-nav.active {
+        right: 0;
+    }
+
+    .ovoads-admin .breadcrumb-nav li a {
+        font-size: 13px;
+        padding: 15px 18px;
+    }
+
+    .ovoads-admin .breadcrumb-nav li.active a {
+        border: none;
+    }
+
+    .ovoads-admin .breadcrumb-nav li {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .ovoads-admin .breadcrumb-nav {
+        width: 220px;
+    }
+
+    .ovoads-admin .breadcrumb-nav li a {
+        font-size: 12px;
+        padding: 12px 12px;
+    }
+}
+
+.ovoads-admin .breadcrumb-nav-close {
+    position: absolute;
+    top: 0;
+    left: -35px;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5352ed;
+    color: #fff;
+    font-size: 24px;
+}
+
+
+
+/* table css start */
+.ovoads-admin .custom--table [data-label] {
+    position: relative;
+}
+
+.ovoads-admin .custom--table [data-label]::before {
+    position: absolute;
+    content: attr(data-label);
+    font-weight: 500;
+    left: 0;
+    padding: 0.8125rem 0.9375rem;
+    display: none;
+}
+
+.ovoads-admin .profile {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ovoads-admin .profile-thumb {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.ovoads-admin .profile-thumb img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ovoads-admin .profile-info .name {
+    font-weight: 500;
+    display: block;
+    color: #2d3748;
+
+}
+
+.ovoads-admin .table thead tr {
+    background-color: #f5f5ff;
+    font-size: 14px;
+}
+
+.ovoads-admin .table thead tr th {
+    color: #2d3748;
+    font-weight: 500;
+}
+
+.ovoads-admin .table tbody {
+    vertical-align: middle;
+}
+
+.ovoads-admin .table tbody td span.trx {
+    font-weight: 500;
+    color: #2d3748;
+}
+
+.ovoads-admin .table tbody tr td {
+    font-size: 14px;
+}
+
+.ovoads-admin .ovoads-table {
+    box-shadow: none !important;
+}
+
+.ovoads-admin .ovoads-table tbody tr:hover {
+    background: #fafafb;
+}
+
+.ovoads-admin .ovoads-table tr {
+    border-bottom: 1px solid #edf2f7;
+}
+
+
+.ovoads-admin .custom--table thead {
+    background: #ededed;
+}
+
+.ovoads-admin .custom--table tbody {
+    border-top: 0px;
+}
+
+.ovoads-admin .custom--table tr>td:last-child,
+.ovoads-admin .custom--table tr>th:last-child {
+    text-align: right;
+}
+
+.ovoads-admin .custom--table>:not(caption)>*>* {
+    padding: 12px 15px;
+}
+
+/* responsive table  */
+@media screen and (max-width: 1199px) {
+    .ovoads-admin .table--responsive--xl thead {
+        display: none;
+    }
+
+    .ovoads-admin .table--responsive--xl tbody tr {
+        display: block;
+        background-color: #e9e9e9;
+    }
+
+    .ovoads-admin .table--responsive--xl tbody tr:nth-child(even) {
+        background-color: #e8e8e8;
+        border-bottom: 2px solid #999;
+    }
+
+    .ovoads-admin .table--responsive--xl tbody tr td {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        text-align: right;
+        padding: 10px 15px;
+        border: none;
+        border-bottom: 2px solid #ddd !important;
+        max-width: unset;
+    }
+
+    .ovoads-admin .table--responsive--xl tbody tr td:last-child {
+        border: none;
+        border-bottom: none !important;
+    }
+
+    .ovoads-admin .table--responsive--xl tbody tr td:first-child {
+        text-align: right;
+        border-left: 0;
+    }
+
+    .ovoads-admin .table--responsive--xl tbody tr td::before {
+        display: block;
+        font-size: 0.875rem;
+        color: #ddd;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .ovoads-admin .table--responsive--xl tbody tr td {
+        border: 0;
+    }
+}
+
+.ovoads-admin .table tbody tr td::before {
+    content: attr(data-label);
+    color: #DDD;
+    font-weight: 500;
+    display: none;
+    width: 45% !important;
+    text-align: left;
+}
+
+/* table css end */
+
+
+
+/* widgets css start */
+.ovoads-admin .widget {
+    border: 1px solid #efefef;
+    border-radius: 8px;
+}
+
+.ovoads-admin .widget .widget__top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ovoads-admin .widget .widget__top i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.ovoads-admin .widget .widget__top p {
+    width: calc(100% - 40px);
+    padding-left: 15px;
+}
+
+.ovoads-admin .widget .widget__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ovoads-admin .widget__btn {
+    font-size: 13px;
+}
+
+.ovoads-admin .widget-primary .widget__top i {
+    background-color: #525feb5a;
+    color: #525feb;
+}
+
+.ovoads-admin .widget-success .widget__top i {
+    background-color: #28a7455a;
+    color: #28a745;
+}
+
+.ovoads-admin .widget-info .widget__top i {
+    background-color: #487eb05a;
+    color: #487eb0;
+}
+
+.ovoads-admin .widget-warning .widget__top i {
+    background-color: #f0932b5a;
+    color: #f0932b;
+}
+
+.ovoads-admin .widget-danger .widget__top i {
+    background-color: #F450505a;
+    color: #F45050;
+}
+
+.ovoads-admin .widget-secondary .widget__top i {
+    background-color: #3948675a;
+    color: #394867;
+}
+
+.ovoads-admin .widget-dark .widget__top i {
+    background-color: #1e272e5a;
+    color: #1e272e;
+}
+
+/* widgets css end */
+
+
+
+/*  Custom Switch Design */
+.ovoads-admin .form--switch .form-check-input {
+    border-radius: 3px;
+    background-image: none;
+    position: relative;
+    box-shadow: none;
+    border: 0;
+    background-color: #b9b9b9a6 !important;
+    padding: 10px !important;
+    margin-left: 0;
+    margin-bottom: 5px;
+    border-radius: 40px;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.ovoads-admin .form--switch .form-check-input:focus {
+    border-radius: 40px;
+    background-image: none;
+    position: relative;
+    box-shadow: none;
+    border: 0;
+}
+
+.ovoads-admin .form--switch .form-check-input::before {
+    position: absolute;
+    content: "";
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2px;
+    left: 5px;
+    border-radius: 50%;
+    transition: 0.2s linear;
+}
+
+.ovoads-admin .form--switch .form-check-input:checked {
+    background-color: #525eeb !important;
+}
+
+.ovoads-admin .form--switch .form-check-input:checked::before {
+    left: calc(100% - 20px);
+    background-color: #fff !important;
+}
+
+.ovoads-admin .form--switch .form-check-input:checked[type=checkbox] {
+    background-image: none;
+}
+
+.ovoads-admin .form--switch input[type=checkbox]:checked::before {
+    margin-top: 0px !important;
+    content: '' !important;
+}
+
+.ovoads-deactivate-modal .modal-content {
+    border-radius: 15px;
+}
+
+.ovoads-deactivate-modal .modal-content .ovoads-dm-head {
+    background: #f7f7f7;
+    padding: 45px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.ovoads-deactivate-modal .modal-content .modal-body {
+    padding: 45px;
+}
+
+.ovoads-deactivate-modal .modal-content .modal-close-btn {
+    position: absolute;
+    top: 0;
+    right: -48px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background: white;
+}
+
+.ovoads-admin .fs-20 {
+    font-size: 20px;
+}
+
+
+.ovoads-admin .ovoads-deactivate-modal .form-check {
+    margin-bottom: 15px;
+}
+
+.ovoads-admin .ovoads-deactivate-modal .form-check-input {
+    background-color: #fff !important;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.ovoads-admin .ovoads-deactivate-modal input[type=radio]:checked {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+}
+
+.ovoads-admin .ovoads-deactivate-modal input[type=radio]:checked::before {
+    width: 15px;
+    height: 12px;
+    line-height: 15px;
+}
+
+.ovoads-admin .ovoads-deactivate-modal .form-check-label {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.ovoads-dm-footer {
+    margin-top: 40px;
+}
+
+
+
+/* wp-media-frame */
+.ovoads-admin .media-frame-title h1 {
+    font-size: 1.5rem !important;
+}
+
+.ovoads-admin .media-sidebar .attachment-details h2 {
+    font-size: .875rem !important;
+}
+
+.ovoads-admin .media-attachments-filter-heading {
+    font-size: .875rem !important;
+}
+
+.ovoads-admin-pro {
+    background: #10ad41;
+    margin: 0 10px !important;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 7px !important;
+    font-weight: 600;
+    transition: all .2s;
+}
+
+.ovoads-admin-pro:hover {
+    background: #1bc750;
+}
+
+.ovoads-admin-pro a {
+    color: #fff !important;
+}
+
+.ovoads-admin-pro a:hover,
+.ovoads-admin-pro a:focus {
+    box-shadow: none !important;
+}
+
+/* wp-media-frame */
+
+
+/* ovoads-admin table design start here  */
+.ovoads-admin .table {
+    margin-bottom: 0;
+}
+
+.ovoads-admin .table tbody tr:last-child td {
+    border: 0;
+}
+
+.ovoads-admin .table thead tr th:last-child,
+.ovoads-admin .table tbody tr td:last-child {
+    padding-right: 22px;
+    text-align: right;
+}
+
+.ovoads-admin .table thead tr,
+.ovoads-admin .table thead tr th {
+    background: #fff !important;
+    border-color: #f3f3f3;
+    font-weight: 600 !important;
+    font-size: 16px;
+    border-radius: 5px 5px 0px 0px;
+    white-space: nowrap;
+}
+
+.ovoads-admin .table tbody tr td {
+    border-color: #f3f3f3;
+}
+
+.ovoads-admin .table thead tr th {
+    font-weight: 500;
+    padding: 12px;
+}
+
+.ovoads-admin .table thead tr th:first-child,
+.ovoads-admin .table tbody tr td:first-child {
+    padding-left: 22px;
+}
+
+.ovoads-admin .table tbody tr td {
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    white-space: nowrap;
+}
+
+.ovoads-admin .table> :not(:first-child) {
+    border-top: 0 !important;
+}
+
+.ovoads-admin .table tbody tr td .btn {
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 12px;
+    box-shadow: none;
+    border-radius: 4px;
+    border: 0 !important;
+}
+
+.ovoads-admin .table-search-form .form-group .search-btn {
+    padding: 0;
+    background: transparent !important;
+    transform: rotate(-90deg);
+    transition: all ease 350ms;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.ovoads-admin .table-search-form .form-group {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.ovoads-admin .table-search-form .form-group input {
+    padding-right: 30px;
+}
+
+.ovoads-admin .card-header,
+.ovoads-admin .card-footer {
+    border-color: #f3f3f3 !important;
+    background-color: #fff;
+}
+
+.ovoads-admin .table tbody tr:last-child {
+    border-bottom: 0px !important;
+}
+
+/* Custom Modal */
+.ovoads-admin .modal-header {
+    border-bottom: 0 !important;
+    background: #f7f7f7;
+    padding: 2.5rem;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.ovoads-admin .modal-header .modal-title {
+    font-size: clamp(1.375rem, 0.75rem + 2vw, 1.875rem);
+}
+
+.ovoads-admin .modal-footer {
+    border-top: 0 !important;
+}
+
+.ovoads-admin .modal-header .btn-close {
+    position: absolute;
+    right: -37px;
+    top: 7px;
+    background: #fff;
+    z-index: 1;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ovoads-admin .modal-header .btn-close::before {
+    content: "\f00d";
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    color: #f60101;
+}
+
+.ovoads-admin .modal-body {
+    padding: 2.5rem;
+
+}
+
+.ovoads-admin .modal-footer {
+    padding: 2.5rem;
+    padding-top: 0;
+}
+
+.ovoads-admin .modal-content {
+    border-radius: 0.5rem;
+}
+
+@media screen and (max-width:1150px) and (min-width:991px) {
+    .ovoads-admin .modal.show {
+        justify-content: center;
+        left: 60px;
+        width: 100%;
+    }
+
+    .ovoads-admin .modal-content {
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+
+    .ovoads-admin .modal-header,
+    .ovoads-admin .modal-body,
+    .ovoads-admin .modal-footer {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .ovoads-admin .modal-header,
+    .ovoads-admin .modal-body,
+    .ovoads-admin .modal-footer {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .ovoads-admin .modal-header .btn-close {
+        right: 10px;
+        background: #e1dede;
+    }
+}
+
+
+.ovoads-admin .form-label {
+    font-weight: 600;
+    color: #6c6c72;
+}
+
+.ovoads-admin input.form-control.form--control {
+    border-radius: 5px;
+    padding-block: 6px;
+    border: 1px solid #a9a9ad;
+}
+
+.ovoads-admin td .btn {
+    min-width: 35px;
+    font-size: 13px !important;
+}
+
+.ovoads-admin .badge {
+    border-radius: 50px;
+    font-weight: 600;
+    padding-inline: 10px;
+}
+
+.ovoads-admin .page-link {
+    box-shadow: unset !important;
+    border: 0;
+
+}
+
+.ovoads-admin .page-link:focus {
+    border: 0;
+}
+
+.ovoads-admin .page-item.active .page-link {
+    border-radius: 4px;
+    height: 35px;
+    background-color: #525eeb;
+}
+
+.ovoads-admin .page-item .page-link {
+    border-radius: 4px;
+    height: 35px;
+    color:#212529;
+}
+
+.ovoads-admin .pagination {
+    justify-content: flex-end;
+}

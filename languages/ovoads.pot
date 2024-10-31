@@ -1,0 +1,550 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Ovoads\n"
+"POT-Creation-Date: 2023-10-17 12:50+0600\n"
+"PO-Revision-Date: 2023-10-17 12:49+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ovoads.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: app/Hook/AdminMenu.php:13 app/Hook/AdminMenu.php:14
+msgid "Ovoads"
+msgstr ""
+
+#: app/Hook/AdminMenu.php:24 app/Hook/AdminMenu.php:25
+#: views/admin/partials/breadcrumb.php:2
+msgid "Dashboard"
+msgstr ""
+
+#: app/Hook/AdminMenu.php:33 app/Hook/AdminMenu.php:34
+msgid "Manage Keywords"
+msgstr ""
+
+#: app/Hook/AdminMenu.php:42 app/Hook/AdminMenu.php:43
+msgid "Advertises"
+msgstr ""
+
+#: app/Hook/AdminMenu.php:50 app/Hook/AdminMenu.php:51
+msgid "Listed Domain"
+msgstr ""
+
+#: app/Hook/AdminMenu.php:58 app/Hook/AdminMenu.php:59
+msgid "IP Logs"
+msgstr ""
+
+#: app/Hook/AdminMenu.php:66 app/Hook/AdminMenu.php:67 app/Hook/Hook.php:84
+msgid "Get Support"
+msgstr ""
+
+#: app/Hook/Authorization.php:105
+msgid "Email Verification Link"
+msgstr ""
+
+#: app/Hook/Authorization.php:109
+msgid "Leave blank to allow user to login without email verification."
+msgstr ""
+
+#: app/Hook/Hook.php:65
+msgid "Please"
+msgstr ""
+
+#: app/Hook/Hook.php:65
+msgid "activate"
+msgstr ""
+
+#: app/Hook/Hook.php:65
+msgid "the "
+msgstr ""
+
+#: app/Hook/Hook.php:85
+msgid "Advertise"
+msgstr ""
+
+#: views/activation.php:20
+msgid "License Activation"
+msgstr ""
+
+#: views/activation.php:27
+msgid "You can ask for support by creating a support ticket."
+msgstr ""
+
+#: views/activation.php:28
+msgid "create ticket"
+msgstr ""
+
+#: views/activation.php:35
+msgid ""
+"To validate your purchase details, following information will sent to "
+"ViserLab server."
+msgstr ""
+
+#: views/activation.php:38
+msgid "Application"
+msgstr ""
+
+#: views/activation.php:39
+msgid "Envato Username"
+msgstr ""
+
+#: views/activation.php:40
+msgid "Purchase Code"
+msgstr ""
+
+#: views/activation.php:41
+msgid "Your Email"
+msgstr ""
+
+#: views/activation.php:42
+msgid "Activation URL"
+msgstr ""
+
+#: views/activation.php:45
+msgid "We never collect any sensitive or confidential data."
+msgstr ""
+
+#: views/activation.php:49
+msgid ""
+"The purchase code(license) is for one website or domain only. Please "
+"activate the license into the correct domain(URL) to avoid any unwanted "
+"issues in the future."
+msgstr ""
+
+#: views/activation.php:51
+msgid "To get the purchase code"
+msgstr ""
+
+#: views/activation.php:51
+msgid "click here"
+msgstr ""
+
+#: views/activation.php:57
+msgid "Enter Purchase Code"
+msgstr ""
+
+#: views/activation.php:63
+msgid "Enter Envato Username"
+msgstr ""
+
+#: views/activation.php:67
+msgid "Enter Your Email"
+msgstr ""
+
+#: views/activation.php:73
+msgid "I accept the terms of the"
+msgstr ""
+
+#: views/activation.php:73
+msgid "Envato Standard License"
+msgstr ""
+
+#: views/activation.php:73
+msgid "as well as the Ovoads terms and conditions."
+msgstr ""
+
+#: views/activation.php:76
+msgid "Activate Now"
+msgstr ""
+
+#: views/admin/advertise/create.php:5 views/admin/advertise/edit.php:6
+msgid "Select ad size"
+msgstr ""
+
+#: views/admin/advertise/create.php:18 views/admin/advertise/edit.php:19
+msgid "Width:"
+msgstr ""
+
+#: views/admin/advertise/create.php:19 views/admin/advertise/edit.php:20
+msgid "Height:"
+msgstr ""
+
+#: views/admin/advertise/create.php:34 views/admin/advertise/edit.php:35
+msgid "Ad Title"
+msgstr ""
+
+#: views/admin/advertise/create.php:40 views/admin/advertise/edit.php:41
+msgid "Redirect URL"
+msgstr ""
+
+#: views/admin/advertise/create.php:50 views/admin/advertise/edit.php:50
+msgid "Ad Image"
+msgstr ""
+
+#: views/admin/advertise/create.php:59 views/admin/advertise/edit.php:58
+#: views/admin/advertise/index.php:26 views/admin/domain/index.php:25
+#: views/admin/domain/index.php:99 views/admin/domain/index.php:137
+msgid "Keywords"
+msgstr ""
+
+#: views/admin/advertise/create.php:70 views/admin/advertise/edit.php:68
+#: views/admin/advertise/keyword.php:110 views/admin/domain/index.php:107
+msgid "Save"
+msgstr ""
+
+#: views/admin/advertise/create.php:79 views/admin/advertise/detail.php:182
+#: views/admin/advertise/edit.php:76
+msgid "Back"
+msgstr ""
+
+#: views/admin/advertise/detail.php:7 views/admin/dashboard.php:43
+msgid "Total Clicks"
+msgstr ""
+
+#: views/admin/advertise/detail.php:11
+msgid "Total Impressions"
+msgstr ""
+
+#: views/admin/advertise/detail.php:22
+msgid "Browser Statistics"
+msgstr ""
+
+#: views/admin/advertise/detail.php:26 views/admin/advertise/detail.php:56
+#: views/admin/advertise/detail.php:86 views/admin/advertise/detail.php:116
+#: views/admin/advertise/index.php:25
+msgid "Impressions"
+msgstr ""
+
+#: views/admin/advertise/detail.php:27 views/admin/advertise/detail.php:57
+#: views/admin/advertise/detail.php:87 views/admin/advertise/detail.php:117
+#: views/admin/advertise/index.php:24
+msgid "Clicks"
+msgstr ""
+
+#: views/admin/advertise/detail.php:30 views/admin/advertise/detail.php:60
+#: views/admin/advertise/detail.php:90 views/admin/advertise/detail.php:120
+#: views/admin/advertise/detail.php:151
+msgid "All Time"
+msgstr ""
+
+#: views/admin/advertise/detail.php:31 views/admin/advertise/detail.php:61
+#: views/admin/advertise/detail.php:91 views/admin/advertise/detail.php:121
+#: views/admin/advertise/detail.php:152
+msgid "Current Week"
+msgstr ""
+
+#: views/admin/advertise/detail.php:32 views/admin/advertise/detail.php:62
+#: views/admin/advertise/detail.php:92 views/admin/advertise/detail.php:122
+#: views/admin/advertise/detail.php:153
+msgid "Current Month"
+msgstr ""
+
+#: views/admin/advertise/detail.php:33 views/admin/advertise/detail.php:63
+#: views/admin/advertise/detail.php:93 views/admin/advertise/detail.php:123
+#: views/admin/advertise/detail.php:154
+msgid "Current Year"
+msgstr ""
+
+#: views/admin/advertise/detail.php:52
+msgid "OS Statistics"
+msgstr ""
+
+#: views/admin/advertise/detail.php:82
+msgid "Region Statistics"
+msgstr ""
+
+#: views/admin/advertise/detail.php:112
+msgid "Domain Statistics"
+msgstr ""
+
+#: views/admin/advertise/detail.php:146
+msgid "IP Lists"
+msgstr ""
+
+#: views/admin/advertise/detail.php:163 views/admin/advertise/ip-logs.php:22
+msgid "IP"
+msgstr ""
+
+#: views/admin/advertise/detail.php:164 views/admin/advertise/ip-logs.php:24
+msgid "Country"
+msgstr ""
+
+#: views/admin/advertise/detail.php:165
+msgid "Host"
+msgstr ""
+
+#: views/admin/advertise/detail.php:166
+msgid "Browser"
+msgstr ""
+
+#: views/admin/advertise/detail.php:167 views/admin/advertise/index.php:27
+#: views/admin/advertise/ip-logs.php:27 views/admin/advertise/keyword.php:25
+#: views/admin/domain/index.php:26
+msgid "Action"
+msgstr ""
+
+#: views/admin/advertise/detail.php:175
+msgid "Load More"
+msgstr ""
+
+#: views/admin/advertise/index.php:6
+msgid "List of your created advertises"
+msgstr ""
+
+#: views/admin/advertise/index.php:10
+msgid "Search by title"
+msgstr ""
+
+#: views/admin/advertise/index.php:22
+msgid "Title"
+msgstr ""
+
+#: views/admin/advertise/index.php:23 views/admin/advertise/keyword.php:23
+#: views/admin/domain/index.php:24
+msgid "Status"
+msgstr ""
+
+#: views/admin/advertise/index.php:39 views/admin/advertise/keyword.php:37
+#: views/admin/domain/index.php:37
+msgid "Active"
+msgstr ""
+
+#: views/admin/advertise/index.php:41 views/admin/advertise/keyword.php:39
+#: views/admin/domain/index.php:39
+msgid "Inactive"
+msgstr ""
+
+#: views/admin/advertise/index.php:71 views/admin/advertise/ip-logs.php:50
+#: views/admin/advertise/keyword.php:53
+msgid "No ads created yet."
+msgstr ""
+
+#: views/admin/advertise/index.php:92
+msgid "Your ad script, copy and paste where you want"
+msgstr ""
+
+#: views/admin/advertise/index.php:99
+msgid "Copy"
+msgstr ""
+
+#: views/admin/advertise/index.php:113 views/admin/advertise/ip-logs.php:71
+#: views/admin/advertise/keyword.php:75 views/admin/domain/index.php:159
+msgid "Confirmation"
+msgstr ""
+
+#: views/admin/advertise/index.php:121 views/admin/advertise/ip-logs.php:79
+#: views/admin/advertise/keyword.php:83 views/admin/domain/index.php:167
+#: views/partials/confirmation.php:17
+msgid "Yes"
+msgstr ""
+
+#: views/admin/advertise/index.php:122 views/admin/advertise/ip-logs.php:80
+#: views/admin/advertise/keyword.php:84 views/admin/domain/index.php:168
+#: views/partials/confirmation.php:16
+msgid "No"
+msgstr ""
+
+#: views/admin/advertise/index.php:129
+msgid "Create New Ad"
+msgstr ""
+
+#: views/admin/advertise/ip-logs.php:6
+msgid "List Of Advertise Ip"
+msgstr ""
+
+#: views/admin/advertise/ip-logs.php:10
+msgid "Search by ip"
+msgstr ""
+
+#: views/admin/advertise/ip-logs.php:23
+msgid "Ad"
+msgstr ""
+
+#: views/admin/advertise/ip-logs.php:25
+msgid "Time"
+msgstr ""
+
+#: views/admin/advertise/ip-logs.php:26
+msgid "Date"
+msgstr ""
+
+#: views/admin/advertise/ip-logs.php:43
+msgid " Block"
+msgstr ""
+
+#: views/admin/advertise/ip-logs.php:43
+msgid " Unblock"
+msgstr ""
+
+#: views/admin/advertise/keyword.php:6
+msgid "List Of Keywords"
+msgstr ""
+
+#: views/admin/advertise/keyword.php:10
+msgid "Search by keyword"
+msgstr ""
+
+#: views/admin/advertise/keyword.php:22
+msgid "Keyword"
+msgstr ""
+
+#: views/admin/advertise/keyword.php:24
+msgid "Created At"
+msgstr ""
+
+#: views/admin/advertise/keyword.php:97
+msgid "Add Keyword"
+msgstr ""
+
+#: views/admin/advertise/keyword.php:98
+msgid ""
+"This keyword will be used to create advertisements and add domains. "
+"Advertisements will be shown to the domain according to these keywords."
+msgstr ""
+
+#: views/admin/advertise/keyword.php:106 views/admin/advertise/keyword.php:136
+msgid "Keyword Name"
+msgstr ""
+
+#: views/admin/advertise/keyword.php:126
+msgid "Edit Keyword"
+msgstr ""
+
+#: views/admin/advertise/keyword.php:127
+msgid "Update the keyword if you think that the current keyword is not perfect"
+msgstr ""
+
+#: views/admin/advertise/keyword.php:140 views/admin/domain/index.php:144
+msgid "Update"
+msgstr ""
+
+#: views/admin/advertise/keyword.php:150
+msgid "Add New"
+msgstr ""
+
+#: views/admin/dashboard.php:7
+msgid "Total Ads"
+msgstr ""
+
+#: views/admin/dashboard.php:19
+msgid "Published Ads"
+msgstr ""
+
+#: views/admin/dashboard.php:31
+msgid "Unpublished Ads"
+msgstr ""
+
+#: views/admin/dashboard.php:56
+msgid "Statistics"
+msgstr ""
+
+#: views/admin/domain/index.php:7
+msgid "List of your created domains"
+msgstr ""
+
+#: views/admin/domain/index.php:11
+msgid "Search by domain name"
+msgstr ""
+
+#: views/admin/domain/index.php:22
+msgid "#"
+msgstr ""
+
+#: views/admin/domain/index.php:23
+msgid "Domain"
+msgstr ""
+
+#: views/admin/domain/index.php:66
+msgid "No domain created yet."
+msgstr ""
+
+#: views/admin/domain/index.php:86
+msgid "Add Domain"
+msgstr ""
+
+#: views/admin/domain/index.php:87
+msgid "Your generated advertisement scripts will work only for these domains."
+msgstr ""
+
+#: views/admin/domain/index.php:95 views/admin/domain/index.php:133
+msgid "Domain Name"
+msgstr ""
+
+#: views/admin/domain/index.php:96
+msgid "example.com"
+msgstr ""
+
+#: views/admin/domain/index.php:123
+msgid "Edit Domain"
+msgstr ""
+
+#: views/admin/domain/index.php:124
+msgid "Update the domain if you think that the current domain is not perfect"
+msgstr ""
+
+#: views/admin/domain/index.php:176
+msgid "Add New Domain"
+msgstr ""
+
+#: views/deactivate_modal.php:8
+msgid "Are you sure you want to deactivate?"
+msgstr ""
+
+#: views/deactivate_modal.php:9
+msgid ""
+"Before you go, please share your feedback to us that why you're deactivating "
+"the plugin."
+msgstr ""
+
+#: views/deactivate_modal.php:15
+msgid "Temporary deactivation"
+msgstr ""
+
+#: views/deactivate_modal.php:19
+msgid "It slowed down my site"
+msgstr ""
+
+#: views/deactivate_modal.php:23
+msgid "It's buggy"
+msgstr ""
+
+#: views/deactivate_modal.php:27
+msgid "I found a better plugin"
+msgstr ""
+
+#: views/deactivate_modal.php:32
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: views/deactivate_modal.php:36
+msgid "Others"
+msgstr ""
+
+#: views/deactivate_modal.php:40
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: views/deactivate_modal.php:41
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: views/partials/confirmation.php:5
+msgid "Confirmation Alert!"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://ovoads.com/products/wordpress"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Let's create your own ads.Ovoads gives you to create and manage your own ads."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://ovoads.com"
+msgstr ""
